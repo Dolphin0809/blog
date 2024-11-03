@@ -1,22 +1,28 @@
-h2 {
+// external font
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+h2, h3 {
   margin-bottom: 0.1em;
 }
 p {
   margin-top: 0.25em;
 }
+code {
+  font-family: 'Consolas', 'Inconsolata', monospace;
+}
 
+// Navigation menu
 nav.app-header-menu {
   margin: 1em 0;
 }
 
+// Note
 blockquote.note-info {
   border-left: 0.4em solid rgba(#0a79ff, .8);
 }
-
 blockquote.note-warn {
   border-left: 0.4em solid rgba(#ffa602, .8);
 }
-
 blockquote.note-alert {
   border-left: 0.4em solid rgba(#ff2934, .8);
 }

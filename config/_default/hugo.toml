@@ -3,6 +3,7 @@ languageCode = 'ja-jp'
 title = 'いるかの雑記帳'
 theme = 'm10c'
 copyright = '&copy; since 2024 DOLPHIN0809.JP'
+showReadingTime = 'false'
 
 [params]
   author = 'Dolphin0809'
@@ -19,17 +20,17 @@ copyright = '&copy; since 2024 DOLPHIN0809.JP'
     icon = 'brand-github'
     name = 'GitHub'
     url = 'https://github.com/Dolphin0809'
-  [[params.social]]
-    icon = 'brand-paypal'
-    name = 'PayPal'
-    url = 'https://paypal.me/dolphin0809'
+#  [[params.social]]
+#    icon = 'brand-paypal'
+#    name = 'PayPal'
+#    url = 'https://paypal.me/dolphin0809'
 
   [params.style]
   darkestColor = "#161616"
   darkColor = "#333333"
   lightColor = "#d4d4d4"
   lightestColor = "#eeeeee"
-  primaryColor = "#007acc"
+  primaryColor = "#569cd6"
 
 [menu]
   [[menu.main]]
