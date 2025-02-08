@@ -1,7 +1,7 @@
 baseURL = 'https://blog.dolphin0809.jp/'
 languageCode = 'ja-jp'
 title = 'いるかの雑記帳'
-theme = 'm10c'
+theme = 'github.com/vaga/hugo-theme-m10c'
 copyright = '&copy; since 2024 DOLPHIN0809.JP'
 showReadingTime = 'false'
 
@@ -41,3 +41,7 @@ showReadingTime = 'false'
     identifier = 'about'
     name = 'About'
     url = '/about/'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/vaga/hugo-theme-m10c'
